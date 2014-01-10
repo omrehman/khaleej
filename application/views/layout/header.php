@@ -6,7 +6,7 @@
         <link rel="stylesheet"   type="text/css" href="<?php echo base_url() ?>public_html/css/style.css"
     </head>    
     <body>
-        <div id="header">
+        <div id="header" align="center">
             <h1> KHALEEJ</h1>
         </div>
         

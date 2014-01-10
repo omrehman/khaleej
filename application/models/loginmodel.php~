@@ -1,0 +1,11 @@
+<?php 
+
+class Loginmodel extends CI_Model
+{
+	public function coutUser($user,$pass)
+	{
+		 $this->db->count_all_results('login');
+		 $this->db->where('user', $user); 
+		 return;
+	}
+}

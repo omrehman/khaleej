@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type = "text/javascript" src = "<?php echo base_url(); ?>public_html/javascript/validate_login.js"></script>
+</head>
+<body>
+<form action ="" method ="" name = "login" id = "login" onsubmit = "return validate_login(this);">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<table align ="center" border ="1">
+	<tr>
+	<td>USER NAME :</td>
+	<td><input type = "text" name ="id" id ="id" ></td>
+	</tr>
+	<tr>
+	<td>PASSWORD :</td>
+	<td><input type="password" id = "pass" name = "pass"></td>
+	</tr>
+	<tr></tr>
+	<tr>
+	<td><input type = "submit" name ="login" id ="login"></td>
+	
+	</tr>
+</table>
+</form>
+</body>
+
+<html>

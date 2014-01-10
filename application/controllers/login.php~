@@ -1,0 +1,17 @@
+<?php
+class Login extends CI_Controller
+{
+	public function login_view()
+	{
+		$this->load->model('loginmodel');
+		$this->load->view('login/login_view');
+		if($this->input->post('login'))
+		{
+			$user = $this->input->post('id');
+			$pass = $this->input->post('pass');
+			$this->loginmodel->coutUser($user.$pass);
+		
+		}
+	}
+	
+}
